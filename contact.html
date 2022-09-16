@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<style>
+    body {
+        background-image: url('salon2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .symbol {
+        color: aliceblue;
+        padding: 35px;
+    }
+
+    a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    .nav {
+        color: aliceblue;
+        /* border: 2px solid black; */
+        box-sizing: border-box;
+        width: 25cm;
+        margin: 1cm auto;
+        position: sticky;
+        top: 2px;
+    }
+
+    .tags:hover {
+        color: rgb(217, 231, 243);
+    }
+
+    .btn {
+        margin-left: 106px;
+        height: 0.8cm;
+        width: 5cm;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: rgb(109 146 61);
+        border: double rgb(47 63 29) 2px;
+        border-radius: 5px;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(140 173 97);
+    }
+
+    h1 {
+        font-family: 'Coda Caption', sans-serif;
+        color: aliceblue;
+        /* border: solid black 2px; */
+        text-align: center;
+        margin-bottom: 1px;
+    }
+
+    h4 {
+        font-family: 'Lobster', cursive;
+        color: aliceblue;
+        /* border: solid black 2px; */
+        text-align: center;
+        font-size: x-large;
+        font-weight: 800;
+    }
+
+    .ques {
+        /* border: 2px solid white; */
+        color: aliceblue;
+        font-size: xx-large;
+        font-family: 'Bebas Neue', cursive;
+        padding-bottom: 0px;
+        margin-left: 257px;
+
+    }
+
+    .query {
+        width: 15cm;
+        box-sizing: border-box;
+        margin-left: 45px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        border-radius: 5px;
+        font-family: 'Alegreya', serif;
+
+    }
+
+    #name {
+        margin-left: 82px;
+    }
+
+    #email {
+        margin-left: 166px;
+    }
+
+    .gender {
+        /* border: 2px solid white; */
+        color: aliceblue;
+        font-size: xx-large;
+        font-family: 'Bebas Neue', cursive;
+        padding-bottom: 0px;
+        margin-left: 3cm;
+        padding-right: 5px;
+    }
+
+    #m {
+        color: rgb(61, 122, 235);
+        margin-left: 230px;
+    }
+
+    #f {
+        color: hotpink;
+    }
+
+    #o {
+        color: #483932;
+    }
+
+    .assure {
+        color: #748140;
+        font-size: 23px;
+        font-family: 'Secular One', sans-serif;
+        /* border: cornsilk 2px solid; */
+        margin: 5px;
+        padding-left: 360px;
+    }
+
+    #date {
+        margin-left: 210px;
+    }
+
+    #submitbtn {
+        font-size: x-large;
+        color: rgb(148 196 255);
+        background-color: #21232c;
+        border: aliceblue 2px solid;
+        border-radius: 4px;
+        font-family: 'Acme', sans-serif;
+        cursor: pointer;
+        margin-top: 21px;
+        margin-left: 524px;
+        height: 1cm;
+        width: 5cm;
+
+    }
+</style>
+
+<body>
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+    <nav class="nav">
+        <a href="SAGAR.html" class="tags">HOME</a><span class="symbol">|</span>
+        <a href="products.html" class="tags">PRODUCTS</a><span class="symbol">|</span>
+        <a href="#" class="tags">REVIEW</a><span class="symbol">|</span>
+        <a href="contact.html" class="tags">CONTACT US</a>
+    </nav>
+    <h1>WE ARE HERE FOR YOU...</h1>
+    <h4>Answer a few questions and we will help you find solution</h4>
+    <form action="#">
+        <!-- select -->
+            <label for="query1" class="ques">What's Your Query?</label>
+            <select name="query1" class="query">
+                <option value="Product damaged">Product damaged</option>
+                <option value="Product not received" selected>Product not received</option>
+                <option value="Problem related to stylist">Problem related to stylist</option>
+                <option value="Money not refunded">Money not refunded</option>
+                <option value="Other"> Other</option>
+            </select>
+        <!-- name -->
+        <label for="name" class="ques">Your Good Name</label> <input type="text" name="name" class="query" id="name"
+            placeholder="Selena Gormez">
+
+        <!-- email -->
+        <label for="email" class="ques">Email id</label> <input type="email" name="email" id='email'
+            placeholder="abc@example.com" class="query">
+        <!-- gender -->
+        <span class="ques">sex</span>
+        <span class="gender" id="m">Male</span><input type="radio" name="gender" id="male">
+        <span class="gender" id="f">Female</span> <input type="radio" name="gender" id="female">
+        <span class="gender" id="o">Binary/3<sup>rd</sup> gender</span> <input type="radio" name="gender" id="other">
+        <!-- DOB  -->
+        <span class="ques">DOB</span> <input type="date" name="date" id="date" class="query">
+
+        <!-- I ASSURE  -->
+        <div class="assure">
+            <input type="checkbox" name="tick" id="tick"> <span>I assure that the product is not used </span>
+        </div>
+        <!-- submit  -->
+        <span><input type="submit" value="Submit" id="submitbtn"></span>
+    </form>
+    </div>
+
+</body>
+
+</html>

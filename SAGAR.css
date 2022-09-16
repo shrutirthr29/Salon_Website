@@ -1,0 +1,59 @@
+body{
+    background-image: url('https://mk0comforteld38jtanj.kinstacdn.com/wp-content/uploads/2020/03/Dark-Naturalist-Salon-Interior.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.symbol{
+    color: aliceblue;
+    padding: 35px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav{
+    color: aliceblue;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    width: 25cm ;
+    margin: 1cm auto ;
+    position:sticky;
+    top:2px;
+}
+
+.tags:hover{
+    color: rgb(217, 231, 243);
+}
+
+.btn{
+    margin-left: 106px;
+    height: 0.8cm;
+    width: 5cm;
+    font-size: 16px ;
+    font-weight: 700;
+    background-color: rgb(109 146 61);
+    border: double rgb(47 63 29) 2px;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    background-color: rgb(140 173 97) ;
+}
+.title{
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 110px;
+    width: 9cm;
+    margin: auto;
+    
+    
+}
+.tagline{
+    font-family: 'Gorditas', cursive;
+    color: #eaf3d5;
+    display:block;
+    margin:auto;
+    text-align: center;
+    font-size: 31px;
+}
